@@ -1,0 +1,39 @@
+# Compiled Java Class Files
+*.class
+*.war
+*.ear
+*.nar
+
+# Packaged Binaries / Dependencies
+*.jar
+lib/
+target/
+bin/
+out/
+build/
+
+# Logs and Process Files
+*.log
+*.pid
+*.tmp
+*.bak
+
+# IDE & Editor Configurations
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+*.sublime-project
+*.sublime-workspace
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apex Institute of Engineering &amp; Technology (AIET) - Admissions</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- Top Accreditations & Red Notification Strip -->
+    <div class="top-accreditation-bar no-print">
+        <div class="accreditation-content">
+            <span class="badge-accred"><span class="badge-dot"></span> NAAC 'A+' GRADE</span>
+            <span class="accred-text">Approved by AICTE, New Delhi &bull; Affiliated to State Technological University &bull; NIRF Top Ranked</span>
+            <span class="contact-quick">Admissions Helpline: <strong>+91 1800-266-9000</strong></span>
+        </div>
+    </div>
+    <div class="top-stripe no-print"></div>
+
+    <!-- Primary White Utility Header -->
+    <header class="top-nav no-print">
+        <div class="brand">
+            <div class="seal-icon">&#9632;</div>
+            <div class="brand-titles">
+                <span class="logo-main">APEX INSTITUTE OF ENGINEERING &amp; TECHNOLOGY</span>
+                <span class="logo-sub">AIET &bull; ESTABLISHED 2002 &bull; AUTONOMOUS CAMPUS</span>
+            </div>
+        </div>
+        <div class="top-actions">
+            <button class="pill-btn" onclick="openModal('applyModal')">APPLY NOW</button>
+            <button class="pill-btn outline-btn" onclick="scrollToSection('programs')">EXPLORE</button>
+            <button class="pill-btn admin-btn" onclick="openModal('adminModal')">ADMIN PORTAL</button>
+        </div>
+    </header>
+
+    <!-- Dark Navy Navigation Bar with Smooth Scroll Anchors -->
+    <nav class="sub-nav no-print">
+        <div class="nav-links">
+            <a href="#programs" class="nav-item">DEGREE PROGRAMS</a>
+            <a href="#placements" class="nav-item">PLACEMENTS</a>
+            <a href="#facilities" class="nav-item">FACILITIES &amp; LABS</a>
+            <a href="#campus-life" class="nav-item">CAMPUS LIFE</a>
+            <a href="#events" class="nav-item">EVENTS &amp; FESTS</a>
+        </div>
+        <div class="sub-nav-right">
+            <button class="quick-apply-link" onclick="openModal('applyModal')">Admissions 2026-27 Open &rarr;</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section no-print">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-badge">ADMISSION SESSION 2026 &ndash; 2027</div>
+            <p class="hero-kicker">What can I do with a</p>
+            <h1 class="hero-title">COLLEGE EDUCATION?</h1>
+            <p class="hero-desc">Empowering the next generation of engineers, researchers, and tech pioneers at Apex Institute of Engineering &amp; Technology.</p>
+            <div class="hero-cta-group">
+                <button class="hero-btn-primary" onclick="openModal('applyModal')">Start Your Application</button>
+                <a href="#programs" class="hero-btn-secondary">View Engineering Branches</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Metrics & Achievements Bar -->
+    <section id="placements" class="metrics-section no-print">
+        <div class="section-container">
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-num">94.8%</div>
+                    <div class="metric-label">Placement Record</div>
+                    <div class="metric-sub">Batch 2025-2026</div>
+                </div>
+                <div class="metric-card highlight-metric">
+                    <div class="metric-num">&#8377;42.5 LPA</div>
+                    <div class="metric-label">Highest Package</div>
+                    <div class="metric-sub">International Cloud Architect</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-num">&#8377;9.2 LPA</div>
+                    <div class="metric-label">Average Package</div>
+                    <div class="metric-sub">Top 25% Average: 16.4 LPA</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-num">220+</div>
+                    <div class="metric-label">Recruiting Partners</div>
+                    <div class="metric-sub">TCS, Microsoft, Google, L&amp;T</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Degree Programs Section -->
+    <main id="programs" class="content-section no-print">
+        <div class="content-container">
+            <div class="section-badge">ACADEMIC EXCELLENCE</div>
+            <h2 class="section-heading">Your Bright Future Begins Now</h2>
+            <p class="section-subheading">Expand your horizons with our industry-aligned undergraduate engineering disciplines at AIET.</p>
+
+            <p class="section-description">
+                Broaden your career opportunities, gain hands-on laboratory experience, discover your creative potential, and
+                build professional networks that last a lifetime. As a premier autonomous institution, AIET prepares you for top
+                roles across global tech powerhouses.
+            </p>
+
+            <!-- Program Cards Grid with Realistic Banner Images -->
+            <div class="cards-grid">
+                <!-- Card 1: Computer Science & Engineering -->
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80" alt="Computer Science & Engineering" class="card-img" />
+                        <div class="card-tag">B.Tech &bull; 4 Years</div>
+                    </div>
+                    <div class="card-body">
+                        <h3>Computer Science &amp; Engineering</h3>
+                        <p>Cutting-edge distributed systems, cloud computing, algorithm design, software architecture, and full-stack software development.</p>
+                        <div class="card-specs">
+                            <span><strong class="spec-label">Intake:</strong> 180 Seats</span>
+                            <span><strong class="spec-label">Avg CTC:</strong> &#8377;11.2 LPA</span>
+                        </div>
+                        <button class="card-btn" onclick="openModalWithCourse('Computer Science & Engineering')">Apply for Track &rarr;</button>
+                    </div>
+                </div>
+
+                <!-- Card 2: AI & Machine Learning -->
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=800&q=80" alt="Artificial Intelligence & Machine Learning" class="card-img" />
+                        <div class="card-tag">B.Tech &bull; 4 Years</div>
+                    </div>
+                    <div class="card-body">
+                        <h3>Artificial Intelligence &amp; Machine Learning</h3>
+                        <p>Deep neural architectures, generative AI, natural language processing, computer vision, and predictive big-data analytics.</p>
+                        <div class="card-specs">
+                            <span><strong class="spec-label">Intake:</strong> 120 Seats</span>
+                            <span><strong class="spec-label">Avg CTC:</strong> &#8377;12.8 LPA</span>
+                        </div>
+                        <button class="card-btn" onclick="openModalWithCourse('Artificial Intelligence & Machine Learning')">Apply for Track &rarr;</button>
+                    </div>
+                </div>
+
+                <!-- Card 3: Information Technology -->
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80" alt="Information Technology" class="card-img" />
+                        <div class="card-tag">B.Tech &bull; 4 Years</div>
+                    </div>
+                    <div class="card-body">
+                        <h3>Information Technology</h3>
+                        <p>Enterprise cybersecurity, cloud containerization, DevOps engineering, database clusters, and modern distributed network systems.</p>
+                        <div class="card-specs">
+                            <span><strong class="spec-label">Intake:</strong> 120 Seats</span>
+                            <span><strong class="spec-label">Avg CTC:</strong> &#8377;10.5 LPA</span>
+                        </div>
+                        <button class="card-btn" onclick="openModalWithCourse('Information Technology')">Apply for Track &rarr;</button>
+                    </div>
+                </div>
+
+                <!-- Card 4: Electronics & Telecommunication Engineering -->
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80" alt="Electronics & Telecommunication Engineering" class="card-img" />
+                        <div class="card-tag">B.Tech &bull; 4 Years</div>
+                    </div>
+                    <div class="card-body">
+                        <h3>Electronics &amp; Telecommunication</h3>
+                        <p>Embedded VLSI microchips, 5G wireless networks, IoT edge smart devices, signal processing, and robotics control hardware.</p>
+                        <div class="card-specs">
+                            <span><strong class="spec-label">Intake:</strong> 90 Seats</span>
+                            <span><strong class="spec-label">Avg CTC:</strong> &#8377;9.4 LPA</span>
+                        </div>
+                        <button class="card-btn" onclick="openModalWithCourse('Electronics & Telecommunication Engineering')">Apply for Track &rarr;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Facilities & Infrastructure Section -->
+    <section id="facilities" class="facilities-section no-print">
+        <div class="section-container">
+            <div class="section-header-center">
+                <span class="section-badge">CAMPUS INFRASTRUCTURE</span>
+                <h2 class="section-heading-dark">World-Class Research Facilities</h2>
+                <p class="section-subheading-dark">Over 45 acres of state-of-the-art academic labs and vibrant innovation centers.</p>
+            </div>
+
+            <div class="facilities-grid">
+                <div class="facility-card">
+                    <div class="facility-icon">&#128187;</div>
+                    <h4>High-Performance GPU Labs</h4>
+                    <p>NVIDIA A100 powered computation clusters for generative AI modeling and deep learning research projects.</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">&#128218;</div>
+                    <h4>24/7 Digital Library</h4>
+                    <p>Over 85,000 reference volumes, IEEE Xplore, ScienceDirect digital subscriptions, and silent air-conditioned study pods.</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">&#129302;</div>
+                    <h4>Robotics &amp; IoT Innovation Hub</h4>
+                    <p>Dedicated fabrication lab equipped with 3D printers, PCB etching stations, drone kits, and Arduino/Raspberry Pi workbenches.</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">&#127979;</div>
+                    <h4>Smart Interactive Classrooms</h4>
+                    <p>Acoustically designed tiered lecture halls with 4K interactive touchscreen smart boards and lecture capture audio systems.</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">&#9917;</div>
+                    <h4>Olympic-Grade Sports Complex</h4>
+                    <p>Floodlit football stadium, indoor badminton courts, synthetic basketball arena, Olympic swimming pool, and gym.</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">&#127828;</div>
+                    <h4>Modern Multi-Cuisine Canteen</h4>
+                    <p>Hygienic multi-cuisine cafeteria, Starbucks coffee kiosk, open-air amphitheater seating, and student lounge zones.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Life @ Campus Section -->
+    <section id="campus-life" class="campus-life-section no-print">
+        <div class="section-container">
+            <div class="section-header-center">
+                <span class="section-badge">STUDENT COMMUNITY</span>
+                <h2 class="section-heading">Life @ Apex Institute (AIET)</h2>
+                <p class="section-subheading">A vibrant ecosystem where technical brilliance meets lifelong camaraderie.</p>
+            </div>
+
+            <div class="life-grid">
+                <div class="life-item">
+                    <div class="life-img-box">
+                        <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80" alt="Student Technical Chapters" />
+                    </div>
+                    <div class="life-details">
+                        <span class="life-category">TECHNICAL CHAPTERS</span>
+                        <h4>IEEE &amp; CSI Student Branches</h4>
+                        <p>Engage in international paper conferences, weekly coding challenges, and open-source contribution sprints mentored by industry leads.</p>
+                    </div>
+                </div>
+
+                <div class="life-item">
+                    <div class="life-img-box">
+                        <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=80" alt="Coding Clubs" />
+                    </div>
+                    <div class="life-details">
+                        <span class="life-category">DEVELOPER CLUBS</span>
+                        <h4>AIET CodeCrafters Club</h4>
+                        <p>Student-run competitive programming community with top global ranks on LeetCode, Codeforces, and Google Hash Code.</p>
+                    </div>
+                </div>
+
+                <div class="life-item">
+                    <div class="life-img-box">
+                        <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=800&q=80" alt="Annual Sports Meet" />
+                    </div>
+                    <div class="life-details">
+                        <span class="life-category">ATHLETICS &amp; WELLNESS</span>
+                        <h4>Annual Inter-Collegiate Sports Meet</h4>
+                        <p>Over 18 sporting disciplines with university medals in Cricket, Basketball, Football, Table Tennis, and Athletics.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events & Fests Section -->
+    <section id="events" class="events-section no-print">
+        <div class="section-container">
+            <div class="section-header-center">
+                <span class="section-badge">ANNUAL CELEBRATIONS</span>
+                <h2 class="section-heading-dark">Signature Events &amp; Fests</h2>
+                <p class="section-subheading-dark">Highlighting the energy, creativity, and technical prowess of AIET students.</p>
+            </div>
+
+            <div class="events-grid">
+                <div class="event-banner-card highlight-event">
+                    <div class="event-tag">FLAGSHIP TECH SYMPOSIUM</div>
+                    <h3>TechNova 2026: 36-Hour National Hackathon</h3>
+                    <p>Over 2,500 national participants solving real-world challenges in Web3, AI Healthcare, Green Energy, and Autonomous Robotics with &#8377;5 Lakh prize pool.</p>
+                    <div class="event-meta">
+                        <span>&#128197; October 28-30, 2026</span>
+                        <span>&#128205; AIET Convention Center</span>
+                    </div>
+                </div>
+
+                <div class="event-banner-card">
+                    <div class="event-tag">CULTURAL EXTRAVAGANZA</div>
+                    <h3>AURA 2026: Annual Inter-College Cultural Fest</h3>
+                    <p>Celebrity musical nights, battle of the bands, western &amp; classical dance choreography competitions, and dramatic theatrical productions.</p>
+                    <div class="event-meta">
+                        <span>&#128197; February 18-20, 2027</span>
+                        <span>&#128205; Main Amphitheatre</span>
+                    </div>
+                </div>
+
+                <div class="event-banner-card">
+                    <div class="event-tag">INDUSTRY COLLOQUIUM</div>
+                    <h3>Global Tech Leadership Speaker Series</h3>
+                    <p>Monthly interactive masterclasses with CTOs and Engineering Directors from Silicon Valley, Bangalore, and global R&amp;D organizations.</p>
+                    <div class="event-meta">
+                        <span>&#128197; Every First Friday</span>
+                        <span>&#128205; Auditorium 1</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Footer Strip -->
+    <section class="admission-cta-strip no-print">
+        <div class="cta-inner">
+            <div class="cta-text">
+                <h3>Ready to embark on your engineering journey at AIET?</h3>
+                <p>Applications for the upcoming 2026-2027 academic session are now officially open.</p>
+            </div>
+            <button class="pill-btn cta-large-btn" onclick="openModal('applyModal')">Apply for Admission &rarr;</button>
+        </div>
+    </section>
+
+    <!-- University Footer -->
+    <footer class="main-footer no-print">
+        <div class="footer-container">
+            <div class="footer-col">
+                <div class="brand">
+                    <span class="logo-red">&#9632;</span>
+                    <span class="logo-text">AIET ADMISSIONS</span>
+                </div>
+                <p class="footer-about">Apex Institute of Engineering &amp; Technology is an autonomous institution accredited with NAAC 'A+' Grade, dedicated to excellence in engineering and technological innovation.</p>
+            </div>
+            <div class="footer-col">
+                <h5>QUICK LINKS</h5>
+                <ul>
+                    <li><a href="#programs">Degree Programs</a></li>
+                    <li><a href="#placements">Placement Statistics</a></li>
+                    <li><a href="#facilities">Campus Facilities</a></li>
+                    <li><a href="#events">TechNova Hackathon</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h5>CAMPUS ADDRESS</h5>
+                <p>AIET Knowledge City, Innovation Highway,<br/>Sector 12, Tech Corridor, Pin: 400708</p>
+                <p>Email: <strong>admissions@aiet.edu.in</strong></p>
+                <p>Phone: <strong>+91 (022) 2788-9000</strong></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Apex Institute of Engineering &amp; Technology (AIET). All rights reserved &bull; Approved by AICTE &bull; Affiliated to State University.</p>
+        </div>
+    </footer>
+
+    <!-- Student Application Modal -->
+    <div id="applyModal" class="modal no-print">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal('applyModal')">&times;</span>
+            <div class="modal-header-branding">
+                <span class="logo-red">&#9632;</span>
+                <span class="modal-college-tag">AIET ADMISSIONS 2026-27</span>
+            </div>
+            <h2>Apply for Engineering Admission</h2>
+            <p class="modal-subtitle">Submit your verified academic details below for candidate merit evaluation.</p>
+            <form id="admissionForm">
+                <div class="form-group">
+                    <label for="fullName">Candidate Full Name</label>
+                    <input type="text" id="fullName" required placeholder="e.g. Aarav Sharma" />
+                </div>
+                <div class="form-group">
+                    <label for="email">Active Email Address</label>
+                    <input type="email" id="email" required placeholder="aarav@domain.com" />
+                </div>
+                <div class="form-group">
+                    <label for="phone">Mobile Contact Number</label>
+                    <input type="tel" id="phone" required placeholder="10-digit mobile number" />
+                </div>
+                <div class="form-group">
+                    <label for="score">12th / HSC Aggregate Marks (%)</label>
+                    <input type="number" id="score" min="0" max="100" step="0.01" required placeholder="e.g. 88.50" />
+                </div>
+                <div class="form-group">
+                    <label for="course">Selected Degree Program Track</label>
+                    <select id="course" required>
+                        <option value="Computer Science & Engineering">B.Tech - Computer Science &amp; Engineering</option>
+                        <option value="Artificial Intelligence & Machine Learning">B.Tech - Artificial Intelligence &amp; Machine Learning</option>
+                        <option value="Information Technology">B.Tech - Information Technology</option>
+                        <option value="Electronics & Telecommunication Engineering">B.Tech - Electronics &amp; Telecommunication</option>
+                    </select>
+                </div>
+                <button type="submit" class="submit-btn">Submit Official Application &rarr;</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Official Printable Admission Acknowledgement Receipt Modal -->
+    <div id="receiptModal" class="modal">
+        <div class="modal-content receipt-card">
+            <span class="close-btn no-print" onclick="closeModal('receiptModal')">&times;</span>
+            <div id="printableReceipt" class="printable-area">
+                <div class="receipt-header">
+                    <div class="receipt-seal">&#9632;</div>
+                    <div class="receipt-titles">
+                        <h3>APEX INSTITUTE OF ENGINEERING &amp; TECHNOLOGY</h3>
+                        <p class="receipt-accred">Approved by AICTE &bull; Affiliated to State University &bull; NAAC 'A+' Accredited</p>
+                        <p class="receipt-office">Office of the Registrar &bull; Undergraduate Admissions Cell</p>
+                        <p class="receipt-type">OFFICIAL ADMISSION ACKNOWLEDGEMENT RECEIPT</p>
+                    </div>
+                </div>
+
+                <div class="receipt-status-banner">
+                    <span class="status-indicator-dot"></span>
+                    <span>APPLICATION STATUS: <strong>SUBMITTED &amp; UNDER COMMITTEE REVIEW</strong></span>
+                </div>
+
+                <div class="receipt-grid">
+                    <div class="receipt-field">
+                        <span class="receipt-label">Application Ref ID:</span>
+                        <span class="receipt-value highlight-id" id="receiptAppId">#101</span>
+                    </div>
+                    <div class="receipt-field">
+                        <span class="receipt-label">Submission Date:</span>
+                        <span class="receipt-value" id="receiptDate">Oct 6, 2026, 7:30 PM</span>
+                    </div>
+                    <div class="receipt-field">
+                        <span class="receipt-label">Candidate Name:</span>
+                        <span class="receipt-value" id="receiptName">Aarav Sharma</span>
+                    </div>
+                    <div class="receipt-field">
+                        <span class="receipt-label">Registered Email:</span>
+                        <span class="receipt-value" id="receiptEmail">aarav@example.com</span>
+                    </div>
+                    <div class="receipt-field">
+                        <span class="receipt-label">Contact Mobile:</span>
+                        <span class="receipt-value" id="receiptPhone">+91 9876543210</span>
+                    </div>
+                    <div class="receipt-field">
+                        <span class="receipt-label">12th / HSC Marks:</span>
+                        <span class="receipt-value" id="receiptScore">92.40%</span>
+                    </div>
+                    <div class="receipt-field full-width">
+                        <span class="receipt-label">Selected Degree Track:</span>
+                        <span class="receipt-value program-value" id="receiptProgram">Computer Science &amp; Engineering</span>
+                    </div>
+                </div>
+
+                <div class="receipt-notice">
+                    <p><strong>Official Directive:</strong> Your application has been logged into the AIET Central Admissions Database. A verification email has been dispatched. Preserve this <strong>Application Ref ID</strong> for all counseling rounds, merit list inquiries, and document verification sessions.</p>
+                </div>
+
+                <div class="receipt-signature-row">
+                    <div class="barcode-box">
+                        <div class="barcode-lines">||||| | |||| || ||||| ||| | ||||| || ||||</div>
+                        <span class="barcode-text">AIET-CENTRAL-REGISTRY-DIGITALLY-VERIFIED</span>
+                    </div>
+                    <div class="seal-box">
+                        <div class="stamp-circle">AIET<br/>SEALED</div>
+                        <p class="stamp-caption">Admissions Registrar</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="receipt-actions no-print">
+                <button class="pill-btn print-action-btn" onclick="window.print()">
+                    <span class="print-icon">&#128438;</span> Print / Save Receipt as PDF
+                </button>
+                <button class="close-receipt-btn" onclick="closeModal('receiptModal')">Done</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Admin Verification Dashboard Modal -->
+    <div id="adminModal" class="modal no-print">
+        <div class="modal-content modal-wide">
+            <span class="close-btn" onclick="closeModal('adminModal')">&times;</span>
+            <div class="modal-header-branding">
+                <span class="logo-red">&#9632;</span>
+                <span class="modal-college-tag">AIET ADMISSION DESK &bull; OFFICER DASHBOARD</span>
+            </div>
+            <h2>Admin Application Review Panel</h2>
+            <p class="modal-subtitle">Review real-time student submissions, verify credentials, and manage admission decisions.</p>
+            <div class="table-responsive">
+                <table class="admin-table">
+                    <thead>
+                        <tr>
+                            <th>Ref ID</th>
+                            <th>Applicant Name</th>
+                            <th>Email</th>
+                            <th>Contact</th>
+                            <th>HSC %</th>
+                            <th>Selected Program</th>
+                            <th>Status</th>
+                            <th>Review Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="applicationTableBody">
+                        <!-- Dynamic Records Injected via script.js -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        function openModalWithCourse(courseName) {
+            openModal('applyModal');
+            const sel = document.getElementById('course');
+            if (sel) {
+                sel.value = courseName;
+            }
+        }
+        function scrollToSection(id) {
+            const el = document.getElementById(id);
+            if (el) {
+                el.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    </script>
+</body>
+
+</html>
